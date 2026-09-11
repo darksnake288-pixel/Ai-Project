@@ -1,17 +1,51 @@
-# React + Vite
-# Live URL : [Click Here](https://ai-project-coral-delta.vercel.app/)
+# AI Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Product-style landing page for an AI brand: navigation, hero, feature banners, contact, and footer. Scroll animations use AOS.
 
-Currently, two official plugins are available:
+**Live demo:** [ai-project-coral-delta.vercel.app](https://ai-project-coral-delta.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Hero and dual banner sections
+- Contact form and footer
+- AOS scroll animations
+- Responsive Tailwind CSS v4 layout
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech stack
 
-## Expanding the ESLint configuration
+| Area | Tools |
+| --- | --- |
+| UI | React 19 |
+| Styling | Tailwind CSS 4 |
+| Animation | AOS |
+| Bundler | Vite 8 |
+| Icons | react-icons |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting started
+
+```bash
+git clone https://github.com/darksnake288-pixel/Ai-Project.git
+cd Ai-Project
+npm install
+npm run dev
+```
+
+| Script | Description |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Production build |
+| `npm run preview` | Preview the production build |
+| `npm run lint` | Run ESLint |
+
+## Project layout
+
+```
+src/
+  App.jsx
+  components/   # Navbar, Hero, Banner, Banner2, Contact, Footer
+  assets/
+```
+
+## Author
+
+[Youssef Adel](https://github.com/darksnake288-pixel) · Frontend developer
