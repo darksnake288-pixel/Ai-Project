@@ -2,7 +2,7 @@ import React from 'react'
 import background from '../assets/AI-background.jpg'
 const Hero = () => {
   return (
-    <section className='pt-24 pl-16' >
+    <section className='pt-24 px-6 sm:px-12 lg:pl-16 lg:pr-0' >
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
             <div data-aos="fade-up" className='space-y-6'>
                 <h1 className='text-4xl font-bold md:text-5xl lg:text-6xl leading-tight'>
@@ -11,10 +11,10 @@ const Hero = () => {
                     for a Smarter Future
                 </h1>
                 <p className='font-semibold'>Discover how AI is transforming industries and improving lives worldwide. Our cutting-edge solutions harness the power of machine learning to solve complex problems.</p>
-                <div className='flex gap-6'>
+                <div className='flex flex-wrap gap-4 sm:gap-6'>
                     {/**Buttons */}
                 <button className='bg-indigo-600 text-white font-semibold rounded-xl px-5 py-2.5 hover:bg-indigo-700 transition-all duration-200 hover:shadow-lg hover:shadow-indigo-600/20 cursor-pointer'>Explore AI Solutions</button>
-                <button className='border rounded-xl px-5 cursor-pointer hover:border-indigo-500 hover:text-indigo-500 transition-all duration-200 hover:shadow-lg hover:shadow-indigo-600/20'>Learn More</button>
+                <button className='border rounded-xl px-5 py-2.5 cursor-pointer hover:border-indigo-500 hover:text-indigo-500 transition-all duration-200 hover:shadow-lg hover:shadow-indigo-600/20'>Learn More</button>
                 </div>
                 <div>
                     {/**icons */}
@@ -35,7 +35,7 @@ const Hero = () => {
                 
                 </div>
             </div>
-             <div data-aos="fade-up-left" className='relative w-full h-80 md:h-150 right-3 '>
+             <div data-aos="fade-up-left" className='relative w-full h-80 md:h-150 lg:right-3 '>
                 {/**image */}
                 <img className='w-full h-full object-cover rounded-4xl' src={background}/>
             </div>
